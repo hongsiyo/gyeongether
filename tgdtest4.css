@@ -1,0 +1,204 @@
+/* 배경 색*/
+html, body {
+    width: 100% !important;
+    background: linear-gradient(to bottom, #3d4f8f, #708fc6);
+    height: auto !important;
+}
+/* 상단 메뉴 광고바*/
+header #header-bar>.row {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-top: 5px solid #30A9DE;
+    background: #fff;
+    border-bottom: 0px solid #ebeae8;
+    border-right: 0px solid #ebeae8;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+/* 좌측 메뉴 헤더*/
+#main .menu-wrapper>.header {
+    background: #30a9de;
+    color: #fff;
+    padding: 0.45em 1.4em 0.45em 1em;
+    font-weight: bold;
+}
+/* 좌측 메뉴 전체*/
+#main .menu-wrapper {
+	border-right: 0;
+    margin-bottom: 0.8em;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+/* 좌측 메뉴 알파벳*/
+#main .menu-wrapper>a>em {
+    color: hsl(53, 85%, 51%);
+    text-decoration: none;
+    font-style: normal;
+    width: 24px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 900;
+}
+/* 좌측 메뉴 사각형*/
+.fa-square:before {
+    content: "\f0c8";
+    color: #ecd318;
+}
+/* 게시글 메뉴 제목 아래 바*/
+#article-content-wrapper>.header {
+    border-top: 2px solid #30a9de;
+    background: #ffffff;
+    padding: 0.6em 0.8em;
+}
+/* 글 작성 메뉴 바*/
+.fr-toolbar {
+    color: #222;
+    background: #fff;
+    z-index: 4;
+    font-family: Arial,Helvetica,sans-serif;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    padding: 0 2px;
+    text-align: left;
+    border: 0;
+    border-top: 7px solid #30a9de;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.2;
+}
+/* 메인메뉴 틀*/
+#main #main-content>div.frame {
+    background: #fff;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+/* 메인메뉴 상단 바*/
+#board-info h1 {
+    font-size: 24px;
+    vertical-align: top;
+   	padding-bottom: 3px;
+    border-bottom: 2px solid #30a9de;
+	margin-left: 48px;
+}
+/* 메인메뉴 상단 아이콘*/
+#board-info #board-info-profile-img {
+    /*width: 3.5em;
+    height: auto;*/
+    border-radius: 5em;
+    border: 1.5px solid #30a9de;
+    float: left !important;
+}
+#board-info #viewers-area {
+    color: #30A9DE;
+    font-size: 12px;
+    position: absolute;
+    right: 0px;
+    margin-right: 1em;
+    margin-top: 0.4em;
+}
+/* 메인 상단 이름 및 아이콘 */
+#board-info #viewers-area .fa-user:before {
+    content: url("https://hongsiyo.github.io/badge.png");
+}
+#board-info #viewers-area #viewers:after {
+	font-size: 12px;
+	font-weight: 600;
+    content: " 송이";
+    cursor: text;
+}
+/* 메인 상단 순위*/
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #30A9DE;
+    border-radius: 10px;
+}
+/* 메인 상단 스트리머이름*/
+#board-info h1>a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 550;
+}
+/* 메인 중단 바 */
+#article-content-wrapper>.header {
+    border-top: 2px solid #30a9de;
+    background: #f6f6f6;
+    padding: 0.6em 0.8em;
+}
+/* 메인 게시글 사이 바*/
+#article-list>.article-list-row>.item>.list-checkbox, #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
+    border-bottom: 2px solid #30a9de;
+    display: table-cell;
+    vertical-align: middle;
+}
+/* 게시판 페이지 선택 숫자 */
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #30a9de;
+    border-color: #3063de;
+}
+/* 게시판 페이지 미선택 숫자*/
+.pagination>li>a, .pagination>li>span {
+    color: #ffffff;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #3d4f8f;
+    border: 1px solid #ddd;
+}
+/* 글쓰기 박스*/
+.btn.square {
+    border-radius: 0px;
+    border: 1px solid #3d4f8f;
+    font-size: 12px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #3d4f8f;
+    border-color: #2e6da4;
+}
+/* 검색 박스 */
+.btn.square {
+    border-radius: 0px;
+    border: 1px solid #30a9de;
+    font-size: 12px;
+}
+.btn-default {
+    color: #fff;
+    background-color: #30a9de;
+    border-color: #ccc;
+}
+/* 상단 검색창 */
+header #right-search-form>input[type=text] {
+    position: relative;
+    border: 3px solid #30a9de;
+    background: #fff;
+    font-size: 1.1em;
+    padding: 0.3em 0.5em;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+/* 돋보기 */
+.fa-search:before {
+    content: "\f002";
+    color: #30a9de;
+}
+/* 로고부분*/
+header .row > div:nth-child(1) > a {
+    display: block;
+    width: 145px;
+    height: 50px;
+    background: url(https://hongsiyo.github.io/logo2.png) no-repeat;
+    filter: drop-shadow(3px 3px 3px rgba(0,0,0,1));
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
