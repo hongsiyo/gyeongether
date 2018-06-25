@@ -168,17 +168,6 @@ header #header-bar>.row {
     background-color: #3d4f8f;
     border-color: #2e6da4;
 }
-/* 검색 박스 */
-.btn.square {
-    border-radius: 0px;
-    border: 1px solid #30a9de;
-    font-size: 12px;
-}
-.btn-default {
-    color: #fff;
-    background-color: #30a9de;
-    border-color: #ccc;
-}
 /* 상단 검색창 */
 header #right-search-form>input[type=text] {
     position: relative;
