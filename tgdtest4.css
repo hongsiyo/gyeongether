@@ -160,7 +160,6 @@ header #header-bar>.row {
 /* 글쓰기 박스*/
 .btn.square {
     border-radius: 0px;
-    border: 1px solid #3d4f8f;
     font-size: 12px;
 }
 .btn-primary {
